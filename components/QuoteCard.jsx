@@ -21,10 +21,10 @@ export default function QuoteCard({ quote }) {
       <KanyePFP imgSrc="url('/images/kanye-pfp.jpg')" />
       <div className="space-y-6 text-center sm:text-left">
         <h1 className="text-2xl sm:text-3xl sm:leading-normal font-['Bree_serif']">
-          "{quote.quote}"
+          &ldquo;{quote.quote}&rdquo;
         </h1>
         <p className="uppercase tracking-wide text-sm font-medium opacity-70">
-          — Kanye west
+          &mdash; Kanye west
         </p>
       </div>
     </div>
