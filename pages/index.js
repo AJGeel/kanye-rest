@@ -1,4 +1,3 @@
-import Head from "next/head";
 import QuoteCard from "../components/QuoteCard";
 import Refresh from "../components/Refresh";
 import { useState } from "react";
