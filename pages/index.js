@@ -14,7 +14,7 @@ export default function Home({ data }) {
   };
 
   return (
-    <div className="min-h-screen h-full bg-gradient-to-b from-[#1a2fb4] to-[#000a79] flex flex-col space-y-4 items-center justify-center p-8">
+    <div className="min-h-screen h-full flex flex-col space-y-4 items-center sm:justify-center p-8 pt-16">
       <QuoteCard quote={quote} />
       <Refresh onClick={fetchQuote} />
     </div>
