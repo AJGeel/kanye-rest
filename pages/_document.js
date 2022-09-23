@@ -5,7 +5,7 @@ function SEOInfo() {
   const desc =
     "Kanye West is an American rapper and record producer, but did you also know that he's full of unconventional wisdom? You do now. 🧠";
   const imgSrc = "/images/kanye-pfp.jpg";
-  const siteUrl = "";
+  const siteUrl = "https://west-needs-rest.netlify.app";
 
   return (
     <>
